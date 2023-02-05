@@ -1,0 +1,110 @@
+.error {
+    color: red;
+    
+  }
+
+  #mainDiv {
+    display: flex;
+    gap: 70px;
+  }
+  #leftDiv > img {
+    width: 600px;
+    height: auto;
+    margin-top: 80px;
+  }
+  #middleDiv {
+    /* border: 1px solid rgb(51, 0, 255); */
+    margin-top: 70px;
+    display: grid;
+    height: auto;
+  }
+  #middleDiv > div > img {
+    width: 700px;
+    height: 200px;
+    /* border: 1px solid red; */
+  }
+  #middleDivRow2 {
+    /* border: 1px solid rgb(16, 7, 7); */
+
+    text-align: center;
+    padding: 50px;
+    margin-top: -150px;
+  }
+  h1 {
+    font-size: 50px;
+    margin-top: -70px;
+  }
+  h3 {
+    font-size: 30px;
+    margin-top: -35px;
+  }
+  #middleDivRow3 {
+    /* border: 1px solid brown; */
+    /* display: flex; */
+    margin-top: -193px;
+    /* height:100px */
+  }
+  #rightDiv {
+    /* height: 50px; */
+    margin-top: -100px;
+  }
+  #contactForm {
+    display: grid;
+    grid-template-rows: 30px;
+    row-gap: 28px;
+  }
+  #middleDivRow3 > #contactForm > div {
+    border: 1px solid green;
+    height: 50px;
+  }
+  input {
+    width: 40%;
+    border: none;
+    /* font-size: 25px; */
+    height: 50%;
+  }
+  input::placeholder {
+    width: 100%;
+    /* margin: ; */
+  }
+  input:focus {
+    outline: none;
+  }
+  #countryCode:focus {
+    outline: none;
+  }
+  #countryCode {
+    border: none;
+    font-size: 20px;
+  }
+  button {
+   
+    margin: auto;
+  }
+  #contactForm > div:nth-child(3) {
+   
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+  }
+  #submitButton {
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 30%;
+    height: 60%;
+    border: none;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    cursor: pointer;
+  }
+
+  #thanksDiv {
+    background-color: green;
+    text-align: center;
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    /* font-size:xx-large */
+  }
+  #thanksDiv > div {
+    font-size: 40px;
+  }
