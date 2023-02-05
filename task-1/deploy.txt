@@ -1,0 +1,2 @@
+deploy/netlify-link : https://ephemeral-maamoul-ef1e15.netlify.app/
+tech stack: HTML,CSS,JAVASCRIPT,MEDIAQUERY
